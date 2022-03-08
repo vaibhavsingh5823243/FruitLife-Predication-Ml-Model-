@@ -1,0 +1,56 @@
+2022-03-05 01:47:42$Validation dataset prepared successfully.
+2022-03-05 01:47:43$invalid load key, 'H'.
+2022-03-05 01:48:32$Validation dataset prepared successfully.
+2022-03-05 01:48:34$Model validated
+2022-03-05 01:48:59$Validation dataset prepared successfully.
+2022-03-05 01:49:01$Model validated
+2022-03-05 01:51:48$Validation dataset prepared successfully.
+2022-03-05 01:51:50$Model validated
+2022-03-05 01:52:13$Validation dataset prepared successfully.
+2022-03-05 01:52:15$Model validated
+2022-03-05 01:52:51$Data visualization starts..
+2022-03-05 01:52:51$Training dataset prepared successfully.
+2022-03-05 01:53:16$Data visualization starts..
+2022-03-05 01:53:16$Training dataset prepared successfully.
+2022-03-08 22:35:24$Predicted class is:Banana(1-5)
+2022-03-08 22:35:58$Predicted class is:Apple(10-14)
+2022-03-08 22:36:16$Predicted class is:Apple(10-14)
+2022-03-08 22:36:30$Predicted class is:Apple(10-14)
+2022-03-08 22:36:42$Predicted class is:Apple(10-14)
+2022-03-08 22:36:58$Predicted class is:Tomato(10-15)
+2022-03-08 22:37:21$Predicted class is:Expired
+2022-03-08 22:37:40$Predicted class is:Expired
+2022-03-08 22:49:23$Predicted class is:['Expired']
+2022-03-08 22:49:38$Predicted class is:['Carrot', '1-2']
+2022-03-08 22:51:57$Predicted class is:['Carrot', '1-2']
+2022-03-08 22:52:45$Predicted class is:['Banana', '1-5']
+2022-03-08 22:53:47$Predicted class is:['Banana', '15-20']
+2022-03-08 23:04:53$Predicted class is:['Banana', '15-20']
+2022-03-08 23:05:13$Predicted class is:['Apple', '10-14']
+2022-03-08 23:06:49$Predicted class is:['Apple', '10-14']
+2022-03-08 23:07:36$Predicted class is:['Apple', '10-14']
+2022-03-08 23:09:08$Predicted class is:['Apple', '10-14']
+2022-03-08 23:10:08$name 'os' is not defined
+2022-03-08 23:10:46$static\images\frame1.jpg removed successfully.
+2022-03-08 23:10:46$static\images\frame10.jpg removed successfully.
+2022-03-08 23:10:46$static\images\frame11.jpg removed successfully.
+2022-03-08 23:10:46$static\images\frame2_2.jpg removed successfully.
+2022-03-08 23:10:46$static\images\frame40.jpg removed successfully.
+2022-03-08 23:11:23$Predicted class is:['Apple', '10-14']
+2022-03-08 23:11:31$Predicted class is:['Apple', '10-14']
+2022-03-08 23:12:25$Predicted class is:['Apple', '10-14']
+2022-03-08 23:12:37$Predicted class is:['Banana', '10-15']
+2022-03-08 23:14:16$static\images\frame13.jpg removed successfully.
+2022-03-08 23:14:16$static\images\frame16.jpg removed successfully.
+2022-03-08 23:14:16$static\images\frame44_-_Copy.jpg removed successfully.
+2022-03-08 23:14:18$Predicted class is:['Banana', '10-15']
+2022-03-08 23:14:31$static\images\frame44_-_Copy.jpg removed successfully.
+2022-03-08 23:14:31$Predicted class is:['Apple', '1-5']
+2022-03-08 23:14:41$static\images\frame341.jpg removed successfully.
+2022-03-08 23:14:42$Predicted class is:['Banana', '10-15']
+2022-03-08 23:17:47$static\images\frame68_-_Copy.jpg removed successfully.
+2022-03-08 23:17:49$Predicted class is:['Banana', '10-15']
+2022-03-08 23:18:07$static\images\frame68_-_Copy.jpg removed successfully.
+2022-03-08 23:18:07$Predicted class is:['Banana', '1-5']
+2022-03-08 23:18:22$static\images\frame302.jpg removed successfully.
+2022-03-08 23:18:23$Predicted class is:['Apple', '10-14']

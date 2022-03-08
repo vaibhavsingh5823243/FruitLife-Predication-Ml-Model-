@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Fruit Life Prediction</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .contener {
+            min-height: 100%;
+            width: 100%;
+            background-color: rgba(2, 225, 139, 1.0);
+            background-position: center;
+            background-size: cover;
+            text-align: center;
+            position: absolute;
+        }
+
+        .main {
+            width: 90%;
+            min-height: 500px;
+            position: relative;
+            margin: 1% auto;
+            background: #666;
+            box-shadow: 5px 5px 20px 1px #666;
+            padding: 20px;
+            border-radius: 20px;
+            overflow: hidden;
+        }
+
+        /*.leftbar{
+		width: 300px;
+		min-height: 400px;
+		position: relative;
+		margin: 20px;
+		background: #999;
+		box-shadow: 5px 5px 20px 1px #666;
+		padding: 10px 50px;
+		border-radius: 20px;
+		overflow: hidden;
+	}*/
+        .rightbar {
+            /*min-width: 1170px;*/
+            height: 470px;
+            /*background: #999;*/
+            box-shadow: 5px 5px 20px 1px #666;
+            border-radius: 20px;
+            margin: 0 10px;
+            overflow-x: scroll;
+            overflow-y: hidden;
+        }
+
+        .rightbar::-webkit-scrollbar {
+            width: 15px;
+        }
+
+        .rightbar::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
+
+        .rightbar::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.8);
+        }
+
+        .linkbox {
+            width: 300px;
+            height: 400px;
+            margin: 20px;
+            background: #999;
+            box-shadow: 5px 5px 20px 1px #666;
+            padding: 10px;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        .qrbox {
+            height: 200px;
+            width: 200px;
+            margin: 25px auto;
+            border-radius: 20px;
+            color: #333;
+            background: #999;
+            box-shadow: 5px 5px 20px 1px #666;
+            overflow: hidden;
+
+        }
+
+        .qr_img {
+            height: 200px;
+        }
+
+        .addbutton p {
+            height: 200px;
+            width: 200px;
+            margin: 25px auto;
+            font-size: 125px;
+            border-radius: 20px;
+            color: #333;
+            background: #999;
+            box-shadow: 5px 5px 20px 1px #666;
+        }
+
+        .signout {
+            position: fixed;
+            top: 5px;
+            right: 5px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contener">
+        <h1>Fruit Classification And Life Prediction</h1>
+        <div class="main">
+            <div class="rightbar">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="linkbox">
+                                <div class="addbutton">
+                                    <p>+</p>
+                                    <form action="/upload" method="POST" enctype="multipart/form-data">
+                                        <input class="form-control" type="file" name="image"
+                                            placeholder="Type something..." required=""><br>
+                                        <button class="btn btn-sm btn-light" type="submit" name="+"
+                                            value="+">Predict</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="linkbox">
+                                <!-- for looop -->
+                                <div class="qrbox">
+                                    <img src={{src}} class="qr_img">
+                                </div>
+                                <div>
+                                    <form action="" method="POST">
+                                        <input hidden="" type="name" name="qr_id" value="<?php echo $row['qr_id'];?>">
+                                        <p class="form-control">
+                                            <h6>Fruit Name:{{fruitName}}</h6>
+                                            <br>
+                                            {% if fruitLife %}
+                                            <h6>Fruit Life:{{fruitLife}}</h6>
+                                            {% endif %}
+                                        </p>
+                                        <!-- <button class="btn btn-sm btn-light" type="submit" name="delete"
+                                            value="delete">DELETE</button> -->
+                                    </form>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
