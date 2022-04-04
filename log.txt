@@ -54,3 +54,70 @@
 2022-03-08 23:18:07$Predicted class is:['Banana', '1-5']
 2022-03-08 23:18:22$static\images\frame302.jpg removed successfully.
 2022-03-08 23:18:23$Predicted class is:['Apple', '10-14']
+2022-03-09 16:57:11$Data visualization starts..
+2022-03-09 16:57:14$Training dataset prepared successfully.
+2022-03-09 17:05:59$Training dataset prepared successfully.
+2022-03-09 19:07:28$Training dataset prepared successfully.
+2022-03-09 19:09:51$Training dataset prepared successfully.
+2022-03-09 19:09:51$Data visualization starts..
+2022-03-09 19:09:51$Training dataset prepared successfully.
+2022-03-09 19:09:53$Training dataset prepared successfully.
+2022-03-09 19:09:53$Validation dataset prepared successfully.
+2022-03-09 19:09:53$Model training start.
+2022-03-09 19:09:53$name 'CLASSES' is not defined
+2022-03-09 19:09:53$Validation dataset prepared successfully.
+2022-03-09 19:09:58$Model validated
+2022-03-09 19:12:58$Training dataset prepared successfully.
+2022-03-09 19:14:17$Training dataset prepared successfully.
+2022-03-09 19:29:18$Training dataset prepared successfully.
+2022-03-09 23:56:34$Training dataset prepared successfully.
+2022-03-09 23:57:47$Data visualization starts..
+2022-03-09 23:57:47$Training dataset prepared successfully.
+2022-03-09 23:58:03$Training dataset prepared successfully.
+2022-03-09 23:58:03$Validation dataset prepared successfully.
+2022-03-09 23:58:03$Model training start.
+2022-03-09 23:58:03$name 'CLASSES' is not defined
+2022-03-09 23:58:25$Training dataset prepared successfully.
+2022-03-09 23:58:26$Validation dataset prepared successfully.
+2022-03-09 23:58:26$Model training start.
+2022-03-09 23:58:26$name 'CLASSES' is not defined
+2022-03-10 00:00:13$Data visualization starts..
+2022-03-10 00:00:13$Training dataset prepared successfully.
+2022-03-10 00:00:18$Training dataset prepared successfully.
+2022-03-10 00:00:18$Validation dataset prepared successfully.
+2022-03-10 00:00:18$Model training start.
+2022-03-10 00:00:18$__init__() got an unexpected keyword argument 'from_logist'
+2022-03-10 00:01:49$Data visualization starts..
+2022-03-10 00:01:49$Training dataset prepared successfully.
+2022-03-10 00:01:55$Training dataset prepared successfully.
+2022-03-10 00:01:55$Validation dataset prepared successfully.
+2022-03-10 00:01:55$Model training start.
+2022-03-10 00:01:55$Invalid keyword argument(s) in `compile`: {'matrix'}
+2022-03-10 00:02:33$Data visualization starts..
+2022-03-10 00:02:33$Training dataset prepared successfully.
+2022-03-10 00:02:38$Training dataset prepared successfully.
+2022-03-10 00:02:38$Validation dataset prepared successfully.
+2022-03-10 00:02:38$Model training start.
+2022-03-10 00:05:08$static\images\frame155.jpg removed successfully.
+2022-03-10 00:05:20$Predicted class is:['Apple', '10-14']
+2022-03-10 00:06:45$Model trained successfully.
+2022-03-10 00:06:46$Validation dataset prepared successfully.
+2022-03-10 00:06:49$Model validated
+2022-03-10 00:07:26$Data visualization starts..
+2022-03-10 00:07:26$Training dataset prepared successfully.
+2022-03-10 00:07:33$Training dataset prepared successfully.
+2022-03-10 00:07:33$Validation dataset prepared successfully.
+2022-03-10 00:07:33$Model training start.
+2022-03-10 00:11:03$Model trained successfully.
+2022-03-10 00:11:47$Validation dataset prepared successfully.
+2022-03-10 00:12:21$Data visualization starts..
+2022-03-10 00:12:21$Training dataset prepared successfully.
+2022-03-10 00:12:23$Training dataset prepared successfully.
+2022-03-10 00:12:23$Validation dataset prepared successfully.
+2022-03-10 00:12:23$Model training start.
+2022-03-10 00:19:38$Model trained successfully.
+2022-03-10 00:19:51$Validation dataset prepared successfully.
+2022-03-10 00:19:58$Validation dataset prepared successfully.
+2022-03-10 00:20:02$Model validated
+2022-03-12 13:58:41$static\images\frame155.jpg removed successfully.
+2022-03-12 13:58:50$Predicted class is:['Banana', '1-5']
